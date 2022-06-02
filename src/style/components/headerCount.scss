@@ -1,0 +1,14 @@
+.shahar {
+  .country-list {
+    .navRegion {
+      overflow-y: hidden;
+      overflow-x: auto;
+      list-style: none;
+      font-size: $region-size;
+      gap: 10px;
+      li a {
+        color: $color-text;
+      }
+    }
+  }
+}

@@ -22,5 +22,14 @@
     .selectD select {
       background-color: $bg-color;
     }
+    .icons {
+      background-color: $bg-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
   }
 }
