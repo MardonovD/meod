@@ -2,13 +2,18 @@ import React from "react";
 
 const HeaderCount = () => {
   return (
-    <div className="shahar">
+    <div className="shahar  ">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 mt-4">
             <div className="country-list">
               <div className="region"></div>
               <ul className="navRegion d-flex justify-content-start">
+                <li className="navRegion-item p-2 ">
+                  <a href="#" className="hududLink  text-white ">
+                    Hududlar
+                  </a>
+                </li>
                 <li className="navRegion-item">
                   <a href="#">Toshkent</a>
                 </li>

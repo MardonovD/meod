@@ -1,0 +1,10 @@
+.main {
+  &-xabar {
+    background-color: $bg-color;
+    height: auto;
+    &-image img {
+      width: 490px;
+      height: 333px;
+    }
+  }
+}

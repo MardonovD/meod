@@ -1,13 +1,42 @@
 .shahar {
+  background-color: $bg-color;
+
   .country-list {
     .navRegion {
+      align-items: center;
       overflow-y: hidden;
       overflow-x: auto;
       list-style: none;
       font-size: $region-size;
-      gap: 10px;
-      li a {
-        color: $color-text;
+
+      li {
+        .hududLink {
+          background-color: $color-blue;
+          padding: 20px 10px;
+          a {
+            font-weight: 700;
+          }
+        }
+        .hududLink::after {
+          content: "  ";
+          position: absolute;
+          width: 0;
+          height: 0;
+          top: 0;
+          bottom: 0;
+          right: -15px;
+          border-style: solid;
+          border-color: $color-blue;
+          border-right: 0;
+          border-bottom: 15px;
+          border-top: 15px;
+          border-left: 10px;
+        }
+
+        padding-right: 12px;
+        a {
+          color: $color-text;
+        }
       }
     }
   }
