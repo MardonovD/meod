@@ -32,3 +32,26 @@
     }
   }
 }
+
+.koproq-news {
+  &::before {
+    content: " ";
+    width: 3px;
+    top: 0;
+    bottom: 0;
+    display: block;
+    left: 0;
+    background-color: $color-blue;
+  }
+  border-right: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $bg-color;
+  padding: 10px 15px;
+  a {
+    color: $color-text;
+    font-weight: 700;
+  }
+}
