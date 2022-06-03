@@ -6,6 +6,7 @@ import DolzarbNew from "./components/DolzarbNew";
 import Intervyu from "./components/Intervyu";
 import SurishTiruv from "./components/SurishTiruv";
 import Maqolalar from "./components/Maqolalar";
+import Busines from "./components/Busines";
 function App() {
   return (
     <div className="app">
@@ -16,6 +17,7 @@ function App() {
       <Intervyu />
       <SurishTiruv />
       <Maqolalar />
+      <Busines />
     </div>
   );
 }

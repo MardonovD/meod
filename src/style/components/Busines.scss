@@ -1,0 +1,35 @@
+.busines {
+  &-text {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+  }
+  background-color: $bg-color;
+  &-image {
+    img {
+      width: 310px;
+      height: 193px;
+    }
+  }
+}
+.kun-uz {
+  span {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.kun-uz-right {
+  div {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+.card-kun {
+  display: inline-block;
+  background-color: white;
+  padding: 20px 5px;
+}
