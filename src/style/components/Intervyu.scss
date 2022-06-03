@@ -1,7 +1,16 @@
 .intervyu {
+  background-color: $bg-color;
   &-left {
     display: flex;
     align-items: center;
+    span {
+      display: flex;
+
+      align-items: center;
+
+      gap: 10px;
+      font-weight: 700;
+    }
     span::before {
       gap: 10px;
       content: " ";
@@ -12,5 +21,47 @@
       border: 5px solid $color-blue;
       display: inline-block;
     }
+  }
+  &-right {
+    &-link {
+      a {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.card {
+  &::after {
+    content: " Intervyu";
+    font-size: 30px;
+    font-weight: 700;
+    color: $date-color;
+    transform: rotate(270deg);
+    right: 0;
+    position: absolute;
+    
+  }
+  &-image {
+    img {
+      &::after {
+        content: " ";
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        background-color: $color-blue;
+        display: block;
+      }
+      margin-left: -15px;
+      width: 263px;
+      height: 164px;
+    }
+  }
+  &-text {
+    color: $color-text;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 50px;
   }
 }
