@@ -1,0 +1,18 @@
+.aside {
+  &-news {
+    &-text {
+      font-size: 18px;
+      font-weight: 700;
+      &::before {
+        content: " ";
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        padding-right: 10px;
+        top: 50%;
+        border: 5px solid $color-blue;
+        border-radius: 50%;
+      }
+    }
+  }
+}

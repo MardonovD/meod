@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import Aside from "./Aside";
 const MainSection = () => {
   const [date, setDate] = useState("");
   useEffect(() => {
@@ -179,10 +179,9 @@ const MainSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-2 bg-dark">
+          <div className="col-2 bg-info">
             <div className="row">
-              <div className="col-6 bg-primary"></div>
-              <div className="col-6 bg-info">Noila</div>
+              <Aside />
             </div>
           </div>
         </div>
