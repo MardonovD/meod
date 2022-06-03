@@ -59,32 +59,28 @@ const DolzarbNew = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-6">
-            <div className="row">
-              <div className="col-6">
-                <div className="card-dol d-flex flex-column  gap-2">
-                  <img
-                    src="https://storage.kun.uz/source/thumbnails/_medium/8/ukCNp8TT2vO3tYK-1lGKP2WJ-0yZ7rG6_medium.jpg"
-                    alt="image dol"
-                  />
-                  <div href="#">
-                    1 iyun – bolalarni himoya qilish kuni. Ularni nimalardan
-                    himoya qilish kerak?
-                  </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="card-dol d-flex flex-column  gap-2">
+                <img
+                  src="https://storage.kun.uz/source/thumbnails/_medium/8/ukCNp8TT2vO3tYK-1lGKP2WJ-0yZ7rG6_medium.jpg"
+                  alt="image dol"
+                />
+                <div href="#">
+                  1 iyun – bolalarni himoya qilish kuni. Ularni nimalardan
+                  himoya qilish kerak?
                 </div>
               </div>
-
-              <div className="col-6">
-                <div className="card-dol d-flex flex-column  gap-2">
-                  <img
-                    src="https://storage.kun.uz/source/thumbnails/_medium/8/HKuckJ5-r2_tgDNZMO20KEWVOTwuE_CL_medium.jpg"
-                    alt="image dol"
-                  />
-                  <div href="#">
-                    30 yillik kechikishning oqibatlarini yana kechiktirish bilan
-                    davolab bo‘lmaydi - Otabek Bakirov
-                  </div>
+            </div>
+            <div className="col-6">
+              <div className="card-dol d-flex flex-column  gap-2">
+                <img
+                  src="https://storage.kun.uz/source/thumbnails/_medium/8/HKuckJ5-r2_tgDNZMO20KEWVOTwuE_CL_medium.jpg"
+                  alt="image dol"
+                />
+                <div href="#">
+                  30 yillik kechikishning oqibatlarini yana kechiktirish bilan
+                  davolab bo‘lmaydi - Otabek Bakirov
                 </div>
               </div>
             </div>
