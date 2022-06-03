@@ -1,0 +1,36 @@
+.maqola {
+  &-circl {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    &::before {
+      display: inline-block;
+      content: " ";
+      width: 20px;
+      height: 20px;
+      border: 5px solid $color-blue;
+      border-radius: 50%;
+    }
+    font-weight: 700;
+    font-size: 18px;
+  }
+  &-text {
+    &-link {
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight: 400;
+    }
+    a {
+      font-size: 18px;
+      font-weight: 700;
+      color: $color-text;
+    }
+  }
+  &-image img {
+    width: 426px;
+    height: 266px;
+  }
+}
