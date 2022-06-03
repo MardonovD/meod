@@ -1,0 +1,16 @@
+.intervyu {
+  &-left {
+    display: flex;
+    align-items: center;
+    span::before {
+      gap: 10px;
+      content: " ";
+      width: 20px;
+
+      height: 20px;
+      border-radius: 50%;
+      border: 5px solid $color-blue;
+      display: inline-block;
+    }
+  }
+}
