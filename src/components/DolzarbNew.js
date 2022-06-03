@@ -59,7 +59,7 @@ const DolzarbNew = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-3">
             <div className="col-6">
               <div className="card-dol d-flex flex-column  gap-2">
                 <img
