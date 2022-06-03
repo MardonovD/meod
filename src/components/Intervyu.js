@@ -38,14 +38,52 @@ const Intervyu = () => {
                   alt=" image intervyu"
                 />
               </div>
-              <div className="card-text  ">
+              <div className="card-text mb-5">
                 Energetika tariflari ko‘tarilishi: savollarga rasmiylar javobi
               </div>
             </div>
           </div>
-          <div className="col-3"></div>
-          <div className="col-3"></div>
-          <div className="col-3"></div>
+          <div className="col-3">
+            <div className="card d-flex flex-column gap-3">
+              <div className="card-image">
+                <img
+                  src="https://storage.kun.uz/source/thumbnails/_medium/8/BtzR2umzRm__E3_-3A64LZ80k8Ym5n09_medium.jpg"
+                  alt=" image intervyu"
+                />
+              </div>
+              <div className="card-text mb-5">
+                «Puldan muhimroq narsalar bor». Geynrix bilan uzoq kutilgan
+                intervyu
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="card d-flex flex-column gap-3">
+              <div className="card-image">
+                <img
+                  src="https://storage.kun.uz/source/thumbnails/_medium/8/SgMEsEAmr7YtEiPtEOcSTtSDyhibB7Ah_medium.jpg"
+                  alt=" image intervyu"
+                />
+              </div>
+              <div className="card-text mb-5">
+                Energetika qanday isloh qilinsa, xalqqa foyda bo‘ladi?
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="card d-flex flex-column gap-3">
+              <div className="card-image">
+                <img
+                  src="https://storage.kun.uz/source/thumbnails/_medium/8/OECjHdwGqH8h7qniTFs6KCHYL1opKiVh_medium.jpg"
+                  alt=" image intervyu"
+                />
+              </div>
+              <div className="card-text mb-5">
+                “Oltinga ozgina yetmay qoldi...” – Mendeleyev olimpiadasida
+                kumush medal olgan kimyogar qiz
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

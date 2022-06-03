@@ -33,6 +33,8 @@
 }
 
 .card {
+  width: 293px;
+  height: 287px;
   &::after {
     content: " Intervyu";
     font-size: 30px;
@@ -41,7 +43,7 @@
     transform: rotate(270deg);
     right: 0;
     position: absolute;
-    
+    top: 100px;
   }
   &-image {
     img {
@@ -53,12 +55,13 @@
         background-color: $color-blue;
         display: block;
       }
-      margin-left: -15px;
+      margin-left: -25px;
       width: 263px;
       height: 164px;
     }
   }
   &-text {
+    margin-left: 20px;
     color: $color-text;
     font-weight: 700;
     font-size: 18px;
