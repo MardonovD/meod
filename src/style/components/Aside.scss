@@ -15,4 +15,20 @@
       }
     }
   }
+
+  &-card {
+    span svg {
+      color: $date-color;
+    }
+    &-lorem {
+      &-p {
+        font-weight: 700;
+        font-size: 14px;
+      }
+    }
+
+    &-time {
+      color: $date-color;
+    }
+  }
 }

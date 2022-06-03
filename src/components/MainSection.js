@@ -178,8 +178,13 @@ const MainSection = () => {
                 </div>
               </div>
             </div>
+
+            <div className="main-tanlov ">
+              <span>Muharrir tanlovi</span>
+            </div>
           </div>
-          <div className="col-2 bg-info">
+
+          <div className="col-2 ">
             <div className="row">
               <Aside />
             </div>
