@@ -1,0 +1,57 @@
+.surishtiruv {
+  &-right {
+    &-link a {
+      font-size: 18px;
+      font-weight: 700;
+      color: $color-text;
+    }
+    &-image img {
+      width: 170px;
+      height: 110px;
+    }
+  }
+  &-left {
+    background-color: $bg-color;
+    img {
+      &::before {
+        content: " ";
+        top: 0;
+        display: inline-block;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        right: -15px;
+      }
+      width: 591px;
+      height: 371px;
+    }
+    &-link {
+      padding: 20px 30px;
+      a {
+        font-size: 22px;
+        font-weight: 700;
+        color: $color-text;
+      }
+    }
+  }
+
+  &-kunUz {
+    span {
+      margin: 20px 0;
+      display: flex;
+      font-size: 18px;
+      font-weight: 700;
+      align-items: center;
+      gap: 10px;
+      &::before {
+        content: " ";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 5px solid $color-blue;
+        border-radius: 50%;
+      }
+    }
+  }
+}

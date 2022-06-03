@@ -4,6 +4,7 @@ import HeaderCount from "./components/HeaderCount";
 import MainSection from "./components/MainSection";
 import DolzarbNew from "./components/DolzarbNew";
 import Intervyu from "./components/Intervyu";
+import SurishTiruv from "./components/SurishTiruv";
 function App() {
   return (
     <div className="app">
@@ -12,6 +13,7 @@ function App() {
       <MainSection />
       <DolzarbNew />
       <Intervyu />
+      <SurishTiruv />
     </div>
   );
 }
