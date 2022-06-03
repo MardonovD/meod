@@ -183,9 +183,8 @@ const MainSection = () => {
               <span>Muharrir tanlovi</span>
             </div>
 
-            
             <div className="row">
-              <div className="col-4 bg-danger">
+              <div className="col-4 ">
                 <div className="main-row-col-4-image">
                   <img
                     src="https://storage.kun.uz/source/thumbnails/_medium/8/56qTsGth5wl1YsHi1Uk2e5J2zm1xQnDs_medium.jpg "
@@ -200,7 +199,7 @@ const MainSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-4 bg-info">
+              <div className="col-4 ">
                 <div className="main-row-col-4-image">
                   <img
                     src="https://storage.kun.uz/source/thumbnails/_medium/8/b-jIyrGnyttH3SNw9pD9dUR7DVa2xNd0_medium.jpg "
@@ -212,7 +211,7 @@ const MainSection = () => {
                   <a href="#">Oyoqsiz yigit: inson irodasi chegara bilmaydi</a>
                 </div>
               </div>
-              <div className="col-4 bg-primary">
+              <div className="col-4 ">
                 <div className="main-row-col-4-image">
                   <img
                     src="https://storage.kun.uz/source/thumbnails/_medium/8/J9U-ZdHBMQsn59i3jtnodDtyOWeEJG0Z_medium.jpg"
