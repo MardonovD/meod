@@ -7,6 +7,7 @@ import Intervyu from "./components/Intervyu";
 import SurishTiruv from "./components/SurishTiruv";
 import Maqolalar from "./components/Maqolalar";
 import Busines from "./components/Busines";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="app">
@@ -18,6 +19,7 @@ function App() {
       <SurishTiruv />
       <Maqolalar />
       <Busines />
+      <Footer />
     </div>
   );
 }
