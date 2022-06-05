@@ -2,6 +2,7 @@ import React from "react";
 
 const SurishTiruv = () => {
   return (
+    // bu surishtiruv saxifasi
     <div className="surishtiruv">
       <div className="container-fluid">
         <div className="surishtiruv-kunUz">
