@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-  // mardon mardon mardon
+  // mardon mardon mardon 
     <div className="footer">
       <div className="container-fluid">
         <div className="about">

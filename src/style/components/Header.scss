@@ -6,6 +6,9 @@
 
 .nav {
   &-item a {
+    @include responsive(phone) {
+      color: red;
+    }
     color: $color-text;
     font-size: $nav-size;
     font-weight: 700;
