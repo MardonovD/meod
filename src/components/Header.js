@@ -62,7 +62,7 @@ const Header = () => {
             </nav>
           </div>
           <div className="col-4 d-flex justify-content-between">
-            <div className="image ">
+            <div className="image image-header ">
               <img
                 src="https://storage.kun.uz/source/banners/buttons/makon/nmded.png"
                 alt="image namuna"
