@@ -2,6 +2,7 @@ import React from "react";
 
 const SurishTiruv = () => {
   return (
+    // github uchun tajriba 
     // bu surishtiruv saxifasi
     <div className="surishtiruv">
       <div className="container-fluid">
@@ -78,7 +79,7 @@ const SurishTiruv = () => {
               <div className="surishtiruv-right-link">
                 <a href="#">
                   Nazarbekdagi abgor manzil. Qurilishi to‘xtab qolgan ko‘prik
-                  odamlarga jabr bo‘lmoqda
+                  odamlarga jabr bo\‘lmoqda
                 </a>
               </div>
             </div>
