@@ -1,6 +1,7 @@
 import React from "react";
 
 const Header = () => {
+  // git add bilan qushish git reset ortga qaytish
   return (
     <div className="header">
       <div className="container-fluid">
