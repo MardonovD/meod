@@ -5,10 +5,19 @@
 }
 
 .nav {
-  &-item a {
-    @include responsive(phone) {
-      color: red;
+  @include responsive(tab) {
+    &-item {
+      .icon-menu svg {
+        // display: none;
+      }
     }
+    a {
+      display: none;
+    }
+  }
+
+  
+  &-item a {
     color: $color-text;
     font-size: $nav-size;
     font-weight: 700;
