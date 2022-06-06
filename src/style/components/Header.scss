@@ -5,6 +5,17 @@
 }
 
 .nav {
+  // @include responsive(tab) {
+  //   &-item {
+  //     .icon-menu svg {
+  //       // display: none;
+  //     }
+  //   }
+  //   a {
+  //     display: none;
+  //   }
+  // }
+
   &-item a {
     color: $color-text;
     font-size: $nav-size;
@@ -15,14 +26,23 @@
 .row {
   .col-4 {
     .image img {
+      // @include responsive(phone) {
+      //   display: none;
+      // }
       width: 140px;
       height: 40px;
       background-size: cover;
     }
     .selectD select {
       background-color: $bg-color;
+      // @include responsive(phone) {
+      //   // display: hidden;
+      // }
     }
     .icons {
+      // @include responsive(phone) {
+      //   display: none;
+      // }
       background-color: $bg-color;
       display: flex;
       justify-content: center;

@@ -2,7 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
 // footer bilan qoshamiza commit
+=======
+  // mardon mardon mardon 
+>>>>>>> mardon
     <div className="footer">
       <div className="container-fluid">
         <div className="about">
