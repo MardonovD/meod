@@ -3,6 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     //github uchun tajriba
+    //github uchun tajribbb
     <div className="footer">
       <div className="container-fluid">
         <div className="about">
