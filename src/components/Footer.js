@@ -2,8 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    //github uchun tajriba
-    //github uchun tajribbb
+  // mardon mardon mardon
     <div className="footer">
       <div className="container-fluid">
         <div className="about">
