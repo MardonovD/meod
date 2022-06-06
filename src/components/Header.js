@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = () => {
-  // git add bilan qushish git reset ortga qaytish
+// git brancg bilan yangi branchga utdik barnch nomi doston 
   return (
     <div className="header">
       <div className="container-fluid">
