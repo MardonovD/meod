@@ -5,6 +5,10 @@
     &-image img {
       width: 490px;
       height: 333px;
+      // @include responsive(phone) {
+      //   width: 250px;
+      //   height: 200px;
+      // }
     }
     &-text-span {
       &-energetika {

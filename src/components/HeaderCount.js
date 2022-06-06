@@ -2,10 +2,10 @@ import React from "react";
 
 const HeaderCount = () => {
   return (
-    <div className="shahar w-100 mt-4 ">
+    <div className="shahar w-100 mt-4  ">
       <div className="container-fluid">
         <div className="row ">
-          <div className="col-12 mt-4">
+          <div className="col-12   mt-4">
             <div className="country-list">
               <div className="region"></div>
               <ul className="navRegion d-flex justify-content-start">
