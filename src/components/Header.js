@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = () => {
-// git brancg bilan yangi branchga utdik barnch nomi doston 
+// git branch bilan yangi branchga utdik barnch nomi doston. 
   return (
     <div className="header">
       <div className="container-fluid">
